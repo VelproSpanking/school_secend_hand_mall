@@ -1,0 +1,1 @@
+<view><block wx:if="{{!token}}"><my-login vue-id="953665b2-1" bind:__l="__l"></my-login></block></view>
