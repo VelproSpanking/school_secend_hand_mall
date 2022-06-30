@@ -1,6 +1,0 @@
-{
-  "navigationBarTitleText": "发布寻物启事",
-  "usingComponents": {
-    "uni-datetime-picker": "/uni_modules/uni-datetime-picker/components/uni-datetime-picker/uni-datetime-picker"
-  }
-}
