@@ -1,1 +1,0 @@
-.goods .cu-item{display:flex;padding-top:35rpx;padding-left:30rpx}.goods .photo{width:201rpx;height:190rpx;margin:0 26rpx}.goods .content{width:466rpx;padding-bottom:32rpx;border-bottom:1rpx solid #eee}.goods .hide{display:none}.goods .edit{margin-left:150rpx}

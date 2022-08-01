@@ -1,4 +1,0 @@
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('el-upload',{attrs:{"file-list":_vm.fileList,"action":_vm.action,"headers":_vm.headers,"limit":6,"list-type":"picture-card","before-upload":_vm.handleBeforeUpload,"on-success":_vm.handleSliderSuccess,"on-exceed":_vm.handleSliderExceed,"before-remove":_vm.handleSliderBeforeRemove,"on-error":_vm.handleUploadError,"on-preview":_vm.handleCardPreview}},[_c('i',{staticClass:"el-icon-plus"})]),_c('el-dialog',{attrs:{"width":"30%","visible":_vm.dialogVisible},on:{"update:visible":function($event){_vm.dialogVisible=$event}}},[_c('img',{attrs:{"width":"100%","src":_vm.dialogImageUrl,"alt":""}})])],1)}
-var staticRenderFns = []
-
-export { render, staticRenderFns }

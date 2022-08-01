@@ -1,1 +1,0 @@
-<view><button class="login-btn" type="primary" data-event-opts="{{[['tap',[['getUserInfo',['$event']]]]]}}" bindtap="__e">微信用户一键登录</button></view>
