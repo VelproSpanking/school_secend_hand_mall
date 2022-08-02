@@ -1,0 +1,48 @@
+miniprogram-to-uniapp v2 转换日志
+
+工具版本：v2.0.13
+转换模式：HBuilder X
+是否合并css：是
+项目 'wechat-mall-master' 开始转换...
+sourceFolder = E:/火狐下载/wechat-mall-master/wechat-mall-master
+搜索到124个文件，耗时：2ms
+
+
+[Tip] 检测到组件picker的mode为 region ，在App和H5里未实现，已使用组件region-picker进行替换。
+                    虽然已替换，但仍需注意picker在<form/>组件里面的取值问题(可能在formSubmit拿不address，需手动调整)。
+                    详情请参阅相关文档, file: pages/user/address/add/index
+
+[Tip] 检测到组件picker的mode为 region ，在App和H5里未实现，已使用组件region-picker进行替换。
+                    虽然已替换，但仍需注意picker在<form/>组件里面的取值问题(可能在formSubmit拿不address，需手动调整)。
+                    详情请参阅相关文档, file: pages/user/address/edit/index
+write pages.json success!
+write manifest.json success!
+write main.js success!
+
+
+统计信息：
+
+vue文件数量: 15
+支付api数量: 0
+登录api数量: 1
+
+恭喜你，转换完成！
+用时: 9.483s
+在该小程序项目的同级目录可以看到_uni结尾的项目，即是转换好的uniapp项目，相关日志在该目录里。
+
+注：如有疑问，请添加QQ群(780359397、361784059、603659851)或https://github.com/zhangdaren/miniprogram-to-uniapp进行反馈！
+
+
+hbxExecutableProgram  D:\HBuilderX.3.2.12.20211029.full\HBuilderX\HBuilderX.exe
+stdout: 
+stderr: 
+Plugin [unicloud] has no exports api:startDebugging.
+Plugin [unicloud] has no exports api:stopDebugging.
+Plugin [unicloud] has no exports api:startDebugging.
+Plugin [unicloud] has no exports api:stopDebugging.
+Plugin [unicloud] has no exports api:startDebugging.
+Plugin [unicloud] has no exports api:stopDebugging.
+Plugin [unicloud] has no exports api:startDebugging.
+Plugin [unicloud] has no exports api:stopDebugging.
+Plugin [unicloud] has no exports api:startDebugging.
+Plugin [unicloud] has no exports api:startDebugging.

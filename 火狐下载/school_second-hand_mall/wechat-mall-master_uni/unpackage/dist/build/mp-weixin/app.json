@@ -1,0 +1,90 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/my/my",
+    "pages/my/login",
+    "pages/category/index",
+    "pages/cart/index",
+    "pages/cart/detail",
+    "pages/goods/list/index",
+    "pages/list/index",
+    "pages/add_detail/buying/list",
+    "pages/add_detail/Foundnotice/list",
+    "pages/add_detail/Lostandfound/detail",
+    "pages/add_detail/Foundnotice/detail",
+    "pages/add_detail/Lostandfound/list",
+    "pages/add_detail/buying/detail",
+    "pages/goods/detail/index",
+    "pages/user/center/index",
+    "pages/user/fav/index",
+    "pages/collection/index",
+    "pages/add/add",
+    "pages/add_detail/buying/buying",
+    "pages/add_detail/Lostandfound/Lostandfound",
+    "pages/add_detail/Foundnotice/Foundnotice",
+    "pages/add_detail/ldle/ldle",
+    "pages/add_detail/ldle/edit_ldle",
+    "pages/add_detail/buying/edit_buy",
+    "pages/add_detail/Foundnotice/edit",
+    "pages/add_detail/Lostandfound/edit",
+    "pages/add_detail/runner/runner",
+    "pages/user/mine_ldle/index",
+    "pages/user/mine_buy/index",
+    "pages/user/mine_runner/index",
+    "pages/user/mine_runner_order/index",
+    "pages/user/mine_lostandfound/index",
+    "pages/user/mine_foundnotice/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarBackgroundColor": "#ff2732",
+    "navigationBarTitleText": "校园二手交易",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#707070",
+    "selectedColor": "#ff2732",
+    "list": [
+      {
+        "text": "主页",
+        "pagePath": "pages/index/index",
+        "iconPath": "./static/tab-bar/home.png",
+        "selectedIconPath": "./static/tab-bar/home-active.png"
+      },
+      {
+        "text": "分类",
+        "pagePath": "pages/category/index",
+        "iconPath": "./static/tab-bar/category.png",
+        "selectedIconPath": "./static/tab-bar/category-active.png"
+      },
+      {
+        "pagePath": "pages/add/add",
+        "iconPath": "static/img/tabbar/add.png",
+        "selectedIconPath": "static/img/tabbar/addactive.png",
+        "text": "发布"
+      },
+      {
+        "text": "跑腿",
+        "pagePath": "pages/cart/index",
+        "iconPath": "./static/tab-bar/cart.png",
+        "selectedIconPath": "./static/tab-bar/cart-active.png"
+      },
+      {
+        "text": "我",
+        "pagePath": "pages/user/center/index",
+        "iconPath": "./static/tab-bar/user.png",
+        "selectedIconPath": "./static/tab-bar/user-active.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "plugins": {},
+  "uniStatistics": {
+    "enable": true
+  },
+  "usingComponents": {}
+}

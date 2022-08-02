@@ -1,0 +1,281 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {}
+		},
+		{
+			"path": "pages/my/login",
+			"style": {}
+		},
+		{
+			"path": "pages/category/index",
+			"style": {
+				"navigationBarTitleText": "分类"
+			}
+		},
+		{
+			"path": "pages/cart/index",
+			"style": {
+				"navigationBarTitleText": "跑腿订单"
+			}
+		},
+		{
+			"path": "pages/cart/detail",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+
+		
+		{
+			"path": "pages/goods/list/index",
+			"style": {
+				"navigationBarTitleText": "商品列表",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/list/index",
+			"style": {
+				"navigationBarTitleText": "搜索列表",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/add_detail/buying/list",
+			"style": {
+				"navigationBarTitleText": "求购列表",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/add_detail/Foundnotice/list",
+			"style": {
+				"navigationBarTitleText": "寻物启事列表",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/add_detail/Lostandfound/detail",
+			"style": {
+				"navigationBarTitleText": "物品详情",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/add_detail/Foundnotice/detail",
+			"style": {
+				"navigationBarTitleText": "物品详情",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/add_detail/Lostandfound/list",
+			"style": {
+				"navigationBarTitleText": "失物招领列表",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/add_detail/buying/detail",
+			"style": {
+				"navigationBarTitleText": "求购详情",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/goods/detail/index",
+			"style": {
+				"navigationBarTitleText": "商品详情"
+			}
+		},
+		{
+			"path": "pages/user/center/index",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		},
+		{
+			"path": "pages/user/fav/index",
+			"style": {}
+		},
+
+		{
+			"path": "pages/collection/index",
+			"style": {
+				"navigationBarTitleText": "我的收藏"
+			}
+		},
+		{
+			"path": "pages/add/add",
+			"style": {
+				"navigationBarTitleText": "发布"
+			}
+		},
+		{
+			"path": "pages/add_detail/buying/buying",
+			"style": {
+				"navigationBarTitleText": "发布购买"
+			}
+		},
+		{
+			"path": "pages/add_detail/Lostandfound/Lostandfound",
+			"style": {
+				"navigationBarTitleText": "发布失物招领"
+			}
+		},
+		{
+			"path": "pages/add_detail/Foundnotice/Foundnotice",
+			"style": {
+				"navigationBarTitleText": "发布寻物启事"
+			}
+		},
+		{
+			"path": "pages/add_detail/ldle/ldle",
+			"style": {
+				"navigationBarTitleText": "发布闲置"
+			}
+		},
+		{
+			"path": "pages/add_detail/ldle/edit_ldle",
+			"style": {
+				"navigationBarTitleText": "编辑闲置"
+			}
+		},
+		{
+			"path": "pages/add_detail/buying/edit_buy",
+			"style": {
+				"navigationBarTitleText": "编辑求购"
+			}
+		},
+		{
+			"path": "pages/add_detail/Foundnotice/edit",
+			"style": {
+				"navigationBarTitleText": "编辑寻物启事"
+			}
+		},
+		{
+			"path": "pages/add_detail/Lostandfound/edit",
+			"style": {
+				"navigationBarTitleText": "编辑失物招领"
+			}
+		},
+		{
+			"path": "pages/add_detail/runner/runner",
+			"style": {
+				"navigationBarTitleText": "发布跑腿"
+			}
+		},
+		{
+			"path": "pages/user/mine_ldle/index",
+			"style": {
+				"navigationBarTitleText": "我的发布列表"
+			}
+		},
+		{
+			"path": "pages/user/mine_buy/index",
+			"style": {
+				"navigationBarTitleText": "我的求购列表"
+			}
+		},
+
+		{
+			"path": "pages/user/mine_runner/index",
+			"style": {
+				"navigationBarTitleText": "我的跑腿列表"
+			}
+		},
+		{
+			"path": "pages/user/mine_runner_order/index",
+			"style": {
+				"navigationBarTitleText": "我的抢单列表"
+			}
+		},
+		{
+			"path": "pages/user/mine_lostandfound/index",
+			"style": {
+				"navigationBarTitleText": "我的失物招领列表"
+			}
+		},
+		{
+			"path": "pages/user/mine_foundnotice/index",
+			"style": {
+				"navigationBarTitleText": "我的寻物启事列表"
+			}
+		}
+
+    ],
+	"subPackages":[
+		{		
+		
+			"root":"pagesA",
+			"pages": [
+			 "Auth-Modal/index",
+				 "search/bar/index",
+				 "search/list/index",
+				 
+				 	"user/address/list/index",
+
+
+
+				 	"user/address/add/index",
+
+
+				 
+				 	"user/address/edit/index"
+
+				 
+			]
+		
+	}]
+	,
+	"tabBar": {
+		"color": "#707070",
+		"selectedColor": "#ff2732",
+		"list": [
+			{
+				"text": "主页",
+				"pagePath": "pages/index/index",
+				"iconPath": "./static/tab-bar/home.png",
+				"selectedIconPath": "./static/tab-bar/home-active.png"
+			},
+			{
+				"text": "分类",
+				"pagePath": "pages/category/index",
+				"iconPath": "./static/tab-bar/category.png",
+				"selectedIconPath": "./static/tab-bar/category-active.png"
+			},
+			{
+				"pagePath": "pages/add/add",
+				"iconPath": "static/img/tabbar/add.png",
+				"selectedIconPath": "static/img/tabbar/addactive.png",
+				"text": "发布"
+			},
+			{
+				"text": "跑腿",
+				"pagePath": "pages/cart/index",
+				"iconPath": "./static/tab-bar/cart.png",
+				"selectedIconPath": "./static/tab-bar/cart-active.png"
+			},
+			{
+				"text": "我",
+				"pagePath": "pages/user/center/index",
+				"iconPath": "./static/tab-bar/user.png",
+				"selectedIconPath": "./static/tab-bar/user-active.png"
+			}
+		]
+	},
+	"style": "v2",
+	"sitemapLocation": "sitemap.json",
+	"globalStyle": {
+		"navigationBarBackgroundColor": "#ff2732",
+		"navigationBarTitleText": "校园二手交易",
+		"navigationBarTextStyle": "white"
+	},
+	"subPackages": []
+}
