@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "cross-env-shell SERVER=http://120.79.123.16:3003 npm run server",
+    "start": "cross-env-shell SERVER=http://localhost:3003 npm run server",
     "server": "node bin/www",
     "debug": "node --inspect-brk ./bin/www",
     "api": "apidoc -i routes/ -o public/api/ && apidoc -i routes/ -o docs/"

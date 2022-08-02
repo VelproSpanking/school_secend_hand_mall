@@ -1,0 +1,4 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"nav-bar"},[_c('div',{staticClass:"left"},[_c('img',{staticClass:"logo am-margin-right-sm",attrs:{"src":require("../assets/img/common/logo.png")}}),_c('i',{staticClass:"el-icon-s-fold",on:{"click":_vm.handleCollapse}})]),_c('el-menu',{attrs:{"mode":"horizontal","router":"","background-color":"#31404e","text-color":"#fff","active-text-color":"#ffd04b"}},[_c('el-submenu',{attrs:{"index":"1"}},[_c('template',{slot:"title"},[_c('el-avatar',{attrs:{"src":_vm.avatar,"size":30}}),_c('span',{staticClass:"username am-margin-left-sm"},[_vm._v(_vm._s(_vm.fullname))])],1),_c('el-menu-item',[_vm._v("消息")]),_c('el-menu-item',{attrs:{"index":"/user/info"}},[_vm._v("设置")]),_c('el-menu-item',{on:{"click":_vm.handleLogout}},[_vm._v("退出")])],2)],1)],1)}
+var staticRenderFns = []
+
+export { render, staticRenderFns }

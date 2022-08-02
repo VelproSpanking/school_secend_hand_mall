@@ -1,0 +1,4 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('el-container',{staticClass:"container"},[_c('el-header',[_c('HeaderBar')],1),_c('el-container',[_c('el-aside',{attrs:{"width":"auto"}},[_c('LeftMenu')],1),_c('el-main',[_c('router-view')],1)],1)],1)}
+var staticRenderFns = []
+
+export { render, staticRenderFns }
